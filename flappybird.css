@@ -1,0 +1,95 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+#tabuleiro {
+  /* background-color: skyblue; */
+  background-image: url("./assets/flappybirdbg.png");
+}
+
+#divEscolha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: rgb(135, 214, 32);
+  width: 100%;
+  border-radius: 20px;
+}
+
+#escolhaJogo label {
+  font-size: 30px;
+}
+
+#jogo{
+  padding-top: 10px;
+}
+
+#tabuleiro{
+  border: 20px solid rgb(0, 225, 255);
+  border-radius: 20px;
+}
+
+#quantia{
+  width: 300px;
+  height: 30px;
+}
+
+
+/* Estilos da tela de fim de jogo */
+.fim-de-jogo {
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  align-self: center;
+  width: 500px;
+  height: 250px;
+  top: 50%;
+  right: 0;
+  gap: 10px;
+  bottom: 0;
+  left: 50%;
+  margin-top: -125px; /* Negative half of height. */
+  margin-left: -250px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(40, 114, 51);
+}
+
+.fim-de-jogo p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Silkscreen', sans-serif;
+}
+
+.fim-de-jogo h2{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Silkscreen', sans-serif;
+}
+
+/* Estilos do botão de reiniciar */
+.reiniciar {
+  height: 60px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  background-color: rgb(180, 199, 10);
+  cursor: pointer;
+}
+
+.escrita-pontuacao{
+  padding-top: 5%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: 'Silkscreen', sans-serif;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" , content="width=device-width, initial-scale=1.0" />
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="flappybird.css" />
+  </head>
+  <body>
+    <div id="divEscolha">
+      <h1>Se passar por 10 canos, a quantia multiplica!!!</h1>
+      <label for="quantia">Quantia a apostar: </label>
+      <input type="number" id="quantia" placeholder="Insira a quantia" />
+      <button id="iniciar">Iniciar Jogo</button>
+      <p id="quantiaTotal"></p>
+    </div>
+    <!-- Tag Canvas pode ser usada como um espaço de desenho e animações -->
+    <div id="jogo">
+      <canvas id="tabuleiro"></canvas>
+      <div id="fim-de-jogo">
+        <h2>Você bateu!!</h2>
+        <!-- Botão para reiniciar o jogo -->
+        <p id="pontuacaoFinal"></p>
+        <p id="mensagem"></p>
+        <button class="reiniciar">REINICIAR</button>
+      </div>
+    </div>
+      <script src="flappybirdFinalizado.js "></script>
+  </body>
+</html>
